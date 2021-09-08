@@ -1,0 +1,5 @@
+<%= form_for @student do |f| %>
+    <p>First name: <%= f.text_field :first_name %></p>
+    <p>Last name: <%= f.text_field :last_name %></p>
+    <%= f.submit "Update Student" %>
+<% end %>
